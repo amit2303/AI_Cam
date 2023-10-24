@@ -75,9 +75,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   chooseImage();
                 },
-                // onLongPress: (){
-                //   capctureImage();
-                // },
+                onLongPress: (){
+                  capctureImage();
+                },
                 child: const Text('Click to Capcture'),
               )
             ],
